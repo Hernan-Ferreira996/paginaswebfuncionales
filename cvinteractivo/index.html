@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Interactivo - Hernán Ferreira</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Hernán Ferreira</h1>
+    <p>Desarrollador Full Stack | Analista de Sistemas</p>
+    <p><a href="mailto:hernan.ferreira.996@gmail.com">hernan.ferreira.996@gmail.com</a></p>
+  </header>
+
+  <section class="about">
+    <h2>Sobre mí</h2>
+    <p>Soy analista y desarrollador de software con enfoque en soluciones web y mobile. Apasionado por la tecnología, documentación técnica, y el diseño UX/UI.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>PHP / Laravel</li>
+      <li>Java</li>
+      <li>Flutter</li>
+      <li>HTML / CSS</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Proyectos</h2>
+    <div class="gallery">
+      <div class="project-card" onclick="showDetails('Clima')">
+        <h3>🌦 Proyecto Clima</h3>
+        <p>App que muestra el clima actual en tu ciudad.</p>
+      </div>
+      <div class="project-card" onclick="showDetails('Dashboard')">
+        <h3>📊 Dashboard Personal</h3>
+        <p>Panel de control con datos y métricas.</p>
+      </div>
+      <div class="project-card" onclick="showDetails('Mapa')">
+        <h3>🗺 Mapa Interactivo</h3>
+        <p>Trayectoria profesional en formato geográfico.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hernán Ferreira</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
