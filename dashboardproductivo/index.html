@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dashboard Personal</h1>
+    <div class="clock" id="clock">00:00:00</div>
+
+    <div class="quote" id="quote">Frase motivadora...</div>
+
+    <div class="todo">
+      <h2>Tareas Pendientes</h2>
+      <input type="text" id="taskInput" placeholder="Escribí una tarea..." />
+      <button onclick="addTask()">Agregar</button>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

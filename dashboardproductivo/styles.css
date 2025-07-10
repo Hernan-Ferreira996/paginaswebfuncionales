@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.clock {
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+.quote {
+  background: #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.todo input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 5px;
+}
+
+.todo button {
+  padding: 10px;
+}
+
+.todo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo li {
+  text-align: left;
+  padding: 5px 0;
+}
